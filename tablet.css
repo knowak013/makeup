@@ -1,0 +1,88 @@
+.container {
+  max-width: 740px;
+}
+
+
+.landing-page p {
+  margin-bottom: 15px;
+}
+
+.landing-page button {
+  max-width: 135px;
+}
+
+.landing-page {
+  flex-direction: row;
+  background: #f0f0f0 url('img/image\ 8.png') no-repeat scroll ;
+  padding: 50px;
+  background-position:  80% 50%;
+  background-size: auto 100%;
+  max-width: 740px;
+  display: flex;
+  height: 360px;
+}
+.landing-page .box{
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+}
+
+.box-landing-page{
+  max-width: 50%;
+  justify-content: flex-start;
+
+}
+.landing-page p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #251d1d;
+  margin-bottom: 15px;
+}
+
+.top-image {
+  width: 25vw;
+}
+
+.landing-page {
+  padding-bottom: 40px;
+  width: 100vw;
+  z-index: 1;
+  position: absolute;
+}
+.box-about-me{
+    position: relative;
+    z-index: 2;
+    top:330px;
+    margin: 0 2.5vw ;
+   
+}
+
+.box-about-me h2{
+  text-align: start;
+}
+
+.about-me--box--content{
+  flex-direction: row;
+  justify-content: space-between;
+}
+.about-me--box--content p{
+  margin-left: 30px;
+}
+.container-top{
+  position: absolute; 
+  height: 1500px;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 600;
+}
+.container-bottom{
+position: relative;
+top: 350px;
+}
+
+.shadows-bg{
+  height: 80px;
+}

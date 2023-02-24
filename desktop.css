@@ -1,0 +1,51 @@
+.container{
+   max-width: 1400px;
+}
+.landing-page{
+
+    max-width: 1400px;
+}
+
+.photo-container{
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.works .images{
+   width: 270px;
+   height: 263px;
+    object-fit: cover;
+}
+.box-works{
+
+    margin-bottom: 35px;
+}
+
+.box-contact{
+
+    justify-content: space-around;
+}
+.works{
+    max-width: 1400px;
+}
+.box-works{
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.photo-container{
+    min-width: 1400px;
+    justify-content: space-between;
+}
+
+.contact{
+   width: 1400px;
+}
+.box-contact{
+    margin: 0 auto;
+    width: 1400px;
+}
+aside{
+    max-width: 270px;
+}

@@ -1,0 +1,177 @@
+.container{
+   max-width: 960px;
+}
+
+.burger{
+    display: none;
+}
+
+.flex-nav{
+    flex-direction: row;
+    position: relative;
+}
+
+.navbar{
+    display: flex;
+    width: 370px;
+    height:22px;
+    background-color: rgb(240, 240, 240);
+    margin-right: 9vw;
+}
+
+.navbar li{
+    border: none;
+   margin: 0 5px;
+}
+
+.nav-links{
+    margin: 0;
+    position: fixed;
+    left: 0;
+    z-index: 1000000;
+    overflow:visible;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+
+
+}
+
+.nav-links a{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.landing-page{
+    max-width: 960px;
+}
+
+.services .box{
+    display: flex;
+}
+aside{
+    max-width: 18vw;
+   align-items: flex-start;
+   justify-content: center;
+}
+
+aside > h3 {
+    text-align: start;
+
+  }
+
+  aside > h2 {
+    text-align: start;
+
+  }
+.services--box--text{
+    text-align: start;
+    margin: 20px 0;
+}
+
+.services .box{
+ 
+    margin: 0 2.5vw ;
+}
+
+.services-images{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.services-images--items {
+    margin: 0;
+    padding: 30px;
+}
+
+.services-images--items .images{
+    width: 100%;
+}
+
+.box-works {
+    align-items: initial;
+  }
+.my-works-header{
+    text-align: start;
+}
+.my-works-text{
+    text-align: end;
+}
+
+.images{
+    width: 17vw;
+}
+.photo-container{
+    max-width: 81vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.box-contact{
+    display: flex;
+    justify-content: space-around;
+    max-width: 70vw;
+}
+
+.contact--left-side-img{
+
+   max-width: 20vw;
+}
+.contact--left-side{
+min-width: 25vw;
+align-items:flex-start;
+justify-content: center;
+}
+
+
+.contact--left-side h6{
+    margin-top: 15px;
+    text-align: start;
+ margin-bottom: 15px;
+ max-width: 444px;
+}
+.button-booking{
+    margin: 0;
+    margin-top: 15px;
+}
+
+.footer-box{
+    display: flex;
+    justify-content: space-between
+}
+.footer-container-contacts{
+
+    width: 747px;
+    height: 191px;
+    margin-bottom:136px;
+}
+
+.footer-contacts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.footer-text{
+    margin: 0;
+}
+.footer-quik-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 169px;
+    height: 154px;
+}
+
+.footer-container-contacts>p{
+    margin-bottom: 20px;
+}
+.name{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 136.4%;
+}
